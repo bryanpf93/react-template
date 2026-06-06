@@ -4,10 +4,11 @@ import "./api/axios/interceptors";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import App from "./App.tsx";
+import { ListApp } from "./list-app/ListApp.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <ListApp />
+    {/* <App /> */}
   </StrictMode>
 );
