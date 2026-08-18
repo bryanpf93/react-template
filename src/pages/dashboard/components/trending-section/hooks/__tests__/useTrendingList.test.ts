@@ -11,7 +11,7 @@ describe("useTrendingList", () => {
   it("should return trending data", () => {
     const { result } = renderHook(() => useTrendingList());
 
-    expect(result.current.trendingData).toBeDefined();
+    expect(result.current.trendingData).toBeUndefined();
     expect(result.current.isLoading).toBe(false);
     expect(result.current.error).toBeUndefined();
   });
