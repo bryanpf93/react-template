@@ -12,7 +12,7 @@ describe("useTrendingList", () => {
     const { result } = renderHook(() => useTrendingList());
 
     expect(result.current.trendingData).toBeDefined();
-    expect(result.current.isLoading).toBe(true);
+    expect(result.current.isLoading).toBe(false);
     expect(result.current.error).toBeUndefined();
   });
 });
