@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "20"
           cache: "yarn"
           cache-dependency-path: "**/yarn.lock"
       - name: Install dependencies
@@ -39,7 +39,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "20"
           cache: "yarn"
           cache-dependency-path: "**/yarn.lock"
       - name: Install dependencies
@@ -56,7 +56,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "20"
           cache: "yarn"
           cache-dependency-path: "**/yarn.lock"
       - name: Install dependencies
@@ -73,7 +73,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "20"
           cache: "yarn"
           cache-dependency-path: "**/yarn.lock"
       - name: Install dependencies
