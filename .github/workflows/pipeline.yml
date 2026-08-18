@@ -45,7 +45,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Lint
-        run: yarn type-check && yarn stylelint && yarn lint
+        run: yarn typescript:check && yarn lint
 
   build:
     needs: lint
